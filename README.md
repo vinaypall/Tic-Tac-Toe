@@ -37,3 +37,7 @@ To run this project locally, follow these steps:
 4. To start the development server, run:
    ```bash
    npm start
+
+
+![image](https://github.com/user-attachments/assets/c7081a6a-f669-4381-8f5a-cdfb1ee4a3dd)
+

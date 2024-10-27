@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+
+
+/* styles.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e3c1c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Board Container */
+.board-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+}
+
+/* Board Rows */
+.board-row {
+  display: flex;
+  width: 100%;
+}
+
+/* Square Container */
+.square-container {
+  border: 2px solid #007bff;
+  height: 100px;
+  width: 100px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.square-container:hover {
+  background-color: #e0e0e0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.square-container h5 {
+  font-size: 24px;
+  margin: 0;
 }
+
+/* Status Messages */
+h2, h3 {
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Restart Button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+
+/* Navigation Bar */
+.navigation-bar {
+  width: 100%;
+
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+}
+
+.nav-heading {
+  margin: 0;
+  font-size: 40px; /* Increased font size */
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-family: 'Pacifico', cursive; /* Stylish font */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+}
+

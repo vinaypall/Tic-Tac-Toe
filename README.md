@@ -11,7 +11,7 @@ A simple Tic Tac Toe game built with React. This application allows two players 
 
 ## Demo
 
-[Live Demo]([https://your-vercel-deployed-url)](https://tic-tac-eoccljv0h-vinay-pals-projects.vercel.app/) 
+[Live Demo]([[https://your-vercel-deployed-url)](https://tic-tac-eoccljv0h-vinay-pals-projects.vercel.app/](https://tic-tac-toe-1-au0u.onrender.com/)) 
 
 ## Features
 

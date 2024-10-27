@@ -8,9 +8,6 @@ A simple Tic Tac Toe game built with React. This application allows two players 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
